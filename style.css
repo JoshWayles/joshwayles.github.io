@@ -82,7 +82,7 @@ a {
   color: var(--colour1)
 }
 
-@media only screen and (max-width: 756px) {
+@media only screen and (max-width: 320px) {
 
   .heading {
     font-size: 26px;
@@ -106,7 +106,7 @@ a {
 
 }
 
-@media only screen and (min-width: 756px) {
+@media only screen and (min-width: 321px) {
 
   .heading {
     font-size: 38px;
@@ -121,7 +121,7 @@ a {
   }
 
   .gallery-img {
-    min-width: 600px;
+    min-width: 500px;
   }
 
   button{
