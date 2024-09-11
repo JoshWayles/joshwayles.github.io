@@ -48,17 +48,11 @@ body {
 }
 
 #day-night {
+  justify-content: space-around;
   display: block;
   margin: -1px 0;
   width: 50px;
   height: 50px;
-}
-
-i {
-  position: relative;
-  transform: translate(50% 50%);
-  top: 0;
-  left: 0;
 }
 
 #nav-spacer {
