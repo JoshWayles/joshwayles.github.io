@@ -53,6 +53,7 @@ body {
   margin: -1px 0;
   width: 50px;
   height: 50px;
+  -webkit-appearance: none;
 }
 
 #nav-spacer {
@@ -98,7 +99,7 @@ a {
   }
 
   .gallery-img {
-    min-width: 300px;
+    min-width: 250px;
   }
 
   button {
@@ -181,6 +182,7 @@ button {
   background-color: var(--colour2);
   width: 100px;
   height: 40px;
+  -webkit-appearance: none;
 }
 
 .screen-size-img {
