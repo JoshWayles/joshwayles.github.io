@@ -1,0 +1,248 @@
+:root {
+  --colour1: #000000;
+  --colour2: #ffffff;
+  --colour3: #696969;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--colour2);
+  color: var(--colour1)
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  height: 50px;
+  width: 100%;
+  background-color: var(--colour3);
+  text-align: center;
+  animation: nav-drop 1s;
+}
+
+@keyframes nav-drop {
+  0% {
+    top: -50px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+#nav a {
+  display: inline-block;
+  color: var(--colour2);
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#nav a:hover {
+  color: var(--colour1);
+  background-color: var(--colour2);
+  cursor: pointer;
+}
+
+#day-night {
+  display: block;
+  margin: -1px 0;
+  width: 50px;
+  height: 50px;
+}
+
+#nav-spacer {
+  height: 40px;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.project-txt {
+  text-align: center;
+  margin: 20px auto;
+  width: 80vw;
+  max-width: 600px;
+}
+
+a {
+  color: var(--colour1)
+}
+
+@media only screen and (max-width: 756px) {
+
+  .heading {
+    font-size: 26px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .project-txt {
+    font-size: 16px;
+  }
+
+  .gallery-img {
+    min-width: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 756px) {
+
+  .heading {
+    font-size: 38px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .project-txt {
+    font-size: 18px;
+  }
+
+  .gallery-img {
+    min-width: 600px;
+  }
+
+}
+
+hr {
+  width: 85vw;
+  margin: 20px auto;
+}
+
+.title-hr {
+  width: 50vw;
+  margin: 20px auto;
+}
+
+.about-img {
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  width: 45vw;
+  max-width: 300px;
+}
+
+.social-icons {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.social-link {
+  color: var(--colour3);
+}
+
+i {
+  margin: 0 5px;
+}
+
+.img-counter {
+  text-align: center;
+  font-size: 18px;
+  margin: 5px auto;
+}
+
+.multi-img-btn-display {
+  display: block;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+button {
+  border: 1px solid lightgrey;
+  color: var(--colour1);
+  background-color: var(--colour2);
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.screen-size-img {
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+  width: 90vw;
+  max-width: 1200px;
+  animation: none;
+}
+
+.paper-size-img {
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+  width: 90vw;
+  max-width: 950px;
+  animation: none;
+}
+
+.gallery-img {
+  width: 40vw;
+}
+
+.multi-img-display {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@keyframes img-fade {
+  0% {
+    opacity: 25%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.app-frame-display {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-frame {
+  border: 1px solid lightgrey;
+  margin: 10px;
+  height: 700px;
+  width: 350px;
+}
+
+.music-frame-display {
+  display: block;
+  margin: auto;
+  width: fit-content;
+}
+
+#meow-ost {
+  border: none;
+  margin: 20px auto 0;
+  width: 80vw;
+  max-width: 600px;
+  height: 241px;
+}
+
+#josh-facts {
+  display: block;
+  margin: auto;
+}
