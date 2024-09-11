@@ -88,7 +88,7 @@ const factsOutput = document.getElementById("facts-output")
 const factBtn = document.getElementById("josh-facts");
 factBtn.addEventListener("click", joshFact);
 
-const joshFactArray = ["Specialty dish: some kind of stew with beans","I worked as a tattoo artist","Most potato waffles eaten in the bath: 8", "Age I completed Super Mario Land: 24", "Current age: 33", "Broken bones: 1/2", "Cycling related accidents: errr...", "Favourite anime: Mob Psycho 100", "Magic The Gathering deck: mono red goblins"]
+const joshFactArray = ["Specialty dish: some kind of stew with beans", "I worked as a tattoo artist", "Most potato waffles eaten in the bath: 8", "Age I completed Super Mario Land: 24", "Current age: 33", "Broken bones: 1/2", "Cycling related accidents: errr...", "Favourite anime: Mob Psycho 100", "Magic The Gathering deck: mono red goblins"]
 let reference;
 
 function joshFact() {

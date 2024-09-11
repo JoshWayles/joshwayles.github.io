@@ -54,6 +54,13 @@ body {
   height: 50px;
 }
 
+i {
+  position: relative;
+  transform: translate(50% 50%);
+  top: 0;
+  left: 0;
+}
+
 #nav-spacer {
   height: 40px;
 }
@@ -100,7 +107,7 @@ a {
     min-width: 300px;
   }
 
-  button{
+  button {
     font-size: 16px;
   }
 
@@ -124,7 +131,7 @@ a {
     min-width: 500px;
   }
 
-  button{
+  button {
     font-size: 20px;
   }
 
