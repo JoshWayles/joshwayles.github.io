@@ -8,7 +8,8 @@ body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--colour2);
-  color: var(--colour1)
+  color: var(--colour1);
+  text-align: center;
 }
 
 #nav {
@@ -18,7 +19,7 @@ body {
   height: 50px;
   width: 100%;
   background-color: var(--colour3);
-  text-align: center;
+  /*text-align: center;*/
   animation: nav-drop 1s;
 }
 
@@ -35,7 +36,7 @@ body {
 #nav a {
   display: inline-block;
   color: var(--colour2);
-  text-align: center;
+  /*text-align: center;*/
   padding: 15px 15px;
   text-decoration: none;
   font-size: 18px;
@@ -62,21 +63,21 @@ section {
   scroll-margin-top: 70px;
 }
 
-h1 {
+/*h1 {
   text-align: center;
-}
+}*/
 
-.heading {
+/*.heading {
   text-align: center;
-}
+}*/
 
 .project-title {
-  text-align: center;
+  /*text-align: center;*/
   font-weight: lighter;
 }
 
 .paragraph-txt {
-  text-align: center;
+  /*text-align: center;*/
   margin: 20px auto;
   width: 80vw;
   max-width: 600px;
@@ -161,7 +162,7 @@ hr {
 }
 
 .social-icons {
-  text-align: center;
+  /*text-align: center;*/
   font-size: 30px;
   margin: 20px;
 }
@@ -175,14 +176,14 @@ i {
 }
 
 .img-counter {
-  text-align: center;
+  /*text-align: center;*/
   font-size: 18px;
   margin: 5px auto;
 }
 
 .multi-img-btn-display {
   display: block;
-  text-align: center;
+  /*text-align: center;*/
   margin: 0 0 20px;
 }
 
