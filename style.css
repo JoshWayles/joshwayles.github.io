@@ -51,10 +51,7 @@ body {
   justify-content: space-around;
   display: block;
   margin: -1px 0;
-  /*width: 50px;
-  height: 50px;*/
   padding: 10px 10px;
-
 }
 
 #nav-spacer {
@@ -65,16 +62,20 @@ section {
   scroll-margin-top: 70px;
 }
 
+h1 {
+  text-align: center;
+}
+
 .heading {
   text-align: center;
 }
 
-.title {
+.project-title {
   text-align: center;
   font-weight: lighter;
 }
 
-.project-txt {
+.paragraph-txt {
   text-align: center;
   margin: 20px auto;
   width: 80vw;
@@ -87,20 +88,24 @@ a {
 
 @media only screen and (max-width: 812px) {
 
-  .heading {
-    font-size: 26px;
+  h1 {
+    font-size: 24px;
   }
 
-  .title {
+  .heading {
+    font-size: 22px;
+  }
+
+  .project-title {
     font-size: 20px;
   }
 
-  .project-txt {
+  .paragraph-txt {
     font-size: 16px;
   }
 
   .gallery-img {
-    min-width: 300px;
+    min-width: 320px;
   }
 
   button {
@@ -111,15 +116,19 @@ a {
 
 @media only screen and (min-width: 813px) {
 
-  .heading {
-    font-size: 38px;
+  h1 {
+    font-size: 30px;
   }
 
-  .title {
+  .heading {
     font-size: 28px;
   }
 
-  .project-txt {
+  .project-title {
+    font-size: 24px;
+  }
+
+  .paragraph-txt {
     font-size: 18px;
   }
 
@@ -181,8 +190,6 @@ button {
   border: 1px solid lightgrey;
   color: var(--colour1);
   background-color: var(--colour2);
-  /*width: 100px;
-  height: 40px;*/
   padding: 5px 20px;
 }
 
