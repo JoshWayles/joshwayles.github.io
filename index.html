@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
+
     <meta name="author" content="Josh Wayles" />
     <meta name="description" content="Freelance illustrator and coder Josh Wayles' portfolio website">
     <meta name="keywords" content="Website, Portfolio, Games, Illustration">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Josh Wayles</title>
 
     <meta property="og:title" content="Josh Wayles" />
@@ -22,13 +22,15 @@
 </head>
 
 <body>
-    <nav aria-label="skip to section" id="nav">
-        <a href="#section-about">About</a>
-        <a href="#section-coding">Coding</a>
-        <a href="#section-illustration">Illustration</a>
 
-        <button aria-label="day or night mode" id="day-night"><i role="presentation" id="day-night-icon"
-                class="fa-solid fa-moon"></i></button>
+    <nav aria-label="skip to section" class="nav" id="nav">
+
+        <a class="nav__link" href="#section-about">About</a>
+        <a class="nav__link" href="#section-coding">Coding</a>
+        <a class="nav__link" href="#section-illustration">Illustration</a>
+
+        <button class="nav__button" aria-label="day or night mode" id="day-night"><i role="presentation"
+                id="day-night-icon" class="fa-solid fa-moon"></i></button>
 
     </nav>
 
@@ -36,81 +38,87 @@
 
     <main>
 
-        <section id="section-about">
+        <section class="section" id="section-about">
 
             <h1>Josh Wayles</h1>
+            <h2 class="section__heading">About</h2>
 
-            <h2 class="heading">About</h2>
-
-            <p class="paragraph-txt">Based in: Manchester</p>
-
-            <hr class="title-hr" />
-
-            <img class="about-img" src="images/Diyderman.jpg"
-                alt="digital illustration of a home made spiderman costume">
-            <p class="paragraph-txt" id="about-txt">Hello there! I'm a passionate freelance artist and coder with a love
-                for
-                blending
-                creativity and
-                technology. My broad artistic skill set allows me to bring imaginative concepts to life, while my coding
-                experience ensures that my creations are functional and engaging.</p>
-            <p class="paragraph-txt" id="about-txt">Whether you're looking for a custom website, a unique mobile app, or
-                stunning illustrations, I'm ready to collaborate and bring your ideas to life.</p>
-            <p class="paragraph-txt" id="about-txt">Let's connect!</p>
-            <div class="social-icons">
-                <a aria-label="link to github" class="social-link" href="https://github.com/JoshWayles"><i
-                        role="presentation" class="fa-brands fa-github"></i></a>
-                <a aria-label="link to linkedin" class="social-link"
-                    href="https://www.linkedin.com/in/josh-wayles-0a90521ba/"><i role="presentation"
-                        class="fa-brands fa-linkedin"></i></a>
-                <a aria-label="link to twitter" class="social-link" href="https://x.com/JoshWaylesGames"><i
-                        role="presentation" class="fa-brands fa-twitter"></i></a>
-                <a aria-label="link to contact form" class="social-link" href="https://forms.gle/ByCnt6z9Kf9VAMFk9"><i
-                        role="presentation" class="fa-solid fa-envelope"></i></a>
+            <div class="about">
+                <img class="about__image" src="images/logo.jpg"
+                    alt="digital illustration of a home made spiderman costume">
+                <p class="about__text" id="about-txt">Hello there! I'm a passionate freelance artist and coder with a
+                    love for blending creativity and technology. My broad artistic skill set allows me to bring
+                    imaginative concepts to life, while my coding
+                    experience ensures that my creations are functional and engaging.</p>
             </div>
 
-            <hr />
-
+            <div class="social-icons">
+                <a aria-label="link to github" class="social-icons__link" href="https://github.com/JoshWayles"><i
+                        role="presentation" class="fa-brands fa-github"></i></a>
+                <a aria-label="link to linkedin" class="social-icons__link"
+                    href="https://www.linkedin.com/in/josh-wayles-0a90521ba/"><i role="presentation"
+                        class="fa-brands fa-linkedin"></i></a>
+                <a aria-label="link to twitter" class="social-icons__link" href="https://x.com/JoshWaylesGames"><i
+                        role="presentation" class="fa-brands fa-twitter"></i></a>
+                <a aria-label="link to contact form" class="social-icons__link"
+                    href="https://forms.gle/ByCnt6z9Kf9VAMFk9"><i role="presentation"
+                        class="fa-solid fa-envelope"></i></a>
+            </div>
 
         </section>
 
-        <section id="section-coding">
+        <section class="section" id="section-coding">
 
-            <h2 class="heading">Coding</h2>
+            <h2 class="section__heading">Coding</h2>
+            <p class="section__sub-heading">Experience in: Javascript, HTML, CSS, Python and GameMaker Studio</p>
 
-            <p class="paragraph-txt">Experience in: Javascript, HTML, CSS, Python and GameMaker Studio</p>
+            <div class="project">
+                <h3 class="project__title">Meowsteroids</h3>
+                <p class="project__description">Meowsteroids was my first game development project. Created in GameMaker
+                    Studio,
+                    this asteroids like game sees you fighting off waves of pesky cats. It is available to play <a
+                        href="https://gx.games/games/0licns/meowsteroids/">here.</a></p>
 
-            <hr class="title-hr" />
-
-            <h3 class="project-title">Meowsteroids</h3>
-            <p class="paragraph-txt">Meowsteroids was my first game development project. Created in GameMaker Studio,
-                this
-                asteroids like game sees you fighting off waves of pesky cats. It is available to play <a
-                    href="https://gx.games/games/0licns/meowsteroids/">here.</a>
-            </p>
-
-            <hr />
-
-            <img title="screenshots from the asteroids like game meowsteroids" class="screen-size-img"
-                id="meowsteroids-screenshots" src="images/meowsteroids/title.jpg"
-                alt="screenshots from the asteroids like game meowsteroids">
-            <p class="img-counter" id="meow-img-counter">1/6</p>
-            <div class="multi-img-btn-display">
-                <button id="meow-previous" onclick="imageChange(this)">Previous</button>
-                <button id="meow-next" onclick="imageChange(this)">Next</button>
+                <img title="screenshots from the asteroids like game meowsteroids"
+                    class="project__image project__image--landscape" id="meowsteroids-img"
+                    src="images/meowsteroids/title.jpg" alt="screenshots from the asteroids like game meowsteroids"
+                    loading="lazy">
+            </div>
+            <div class="thumbnail" aria-label="thumbnails to change main image">
+                <img title="screenshots from the asteroids like game meowsteroids"
+                    class="thumbnail__image thumbnail__image--3" onclick="meowImageChange(this)"
+                    src="images/meowsteroids/title.jpg" alt="screenshots from the asteroids like game meowsteroids"
+                    loading="lazy">
+                <img title="screenshots from the asteroids like game meowsteroids"
+                    class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                    src="images/meowsteroids/music.jpg" alt="screenshots from the asteroids like game meowsteroids"
+                    loading="lazy">
+                <img title="screenshots from the asteroids like game meowsteroids"
+                    class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                    src="images/meowsteroids/controls.jpg" alt="screenshots from the asteroids like game meowsteroids"
+                    loading="lazy">
+                <img title="screenshots from the asteroids like game meowsteroids"
+                    class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                    src="images/meowsteroids/game1.jpg" alt="screenshots from the asteroids like game meowsteroids"
+                    loading="lazy">
+                <img title="screenshots from the asteroids like game meowsteroids"
+                    class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                    src="images/meowsteroids/game2.jpg" alt="screenshots from the asteroids like game meowsteroids"
+                    loading="lazy">
+                <img title="screenshots from the asteroids like game meowsteroids"
+                    class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                    src="images/meowsteroids/game3.jpg" alt="screenshots from the asteroids like game meowsteroids"
+                    loading="lazy">
             </div>
 
-            <hr />
+            <div class="project">
+                <h3 class="project__title">Meowsteroids soundtrack</h3>
+                <p class="project__description">To add a little more variety to the game experience I created three
+                    distinct tracks
+                    for the background music. The first, inspired by classic videogame chiptune music, was created in
+                    FamiStudio. The other two, a lofi remix and a drum and bass remix, were created in ableton.</p>
 
-            <h3 class="project-title">Meowsteroids soundtrack</h3>
-            <p class="paragraph-txt">To add a little more variety to the game experience I created three distinct tracks
-                for
-                the background music. The first, inspired by classic videogame chiptune music, was created in
-                FamiStudio.
-                The other two, a lofi remix and a drum and bass remix, were created in ableton.</p>
-
-            <div class="music-frame-display">
-                <iframe title="music player for the meowsteroids game soundtrack" id="meow-ost"
+                <iframe title="music player for the meowsteroids game soundtrack" class="project__music" id="meow-ost"
                     src="https://bandcamp.com/EmbeddedPlayer/album=3588984896/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/"
                     seamless><a href="https://joshwayles.bandcamp.com/album/meowsteroids-ost"
                         loading="lazy">Meowsteroids
@@ -118,117 +126,120 @@
                         Wayles</a></iframe>
             </div>
 
-            <hr />
-
-            <h3 class="project-title">Various coding projects</h2>
-                <p class="paragraph-txt">Below are various apps I have created whilst learning to code. They were
+            <div class="project">
+                <h3 class="project__title">Various coding projects</h3>
+                <p class="project__description">Below are various apps I have created whilst learning to code. They were
                     typically set out as either one or two week projects that I worked on around other projects.</p>
-
-                <hr />
-
-                <div title="html blackjack app" class="app-frame-display">
-                    <iframe class="app-frame" src="https://josh-wayles-blackjack-app.netlify.app"
-                        loading="lazy"></iframe>
-                    <iframe title="html boardgame utility app" class="app-frame"
-                        src="https://josh-wayles-dice-pal.netlify.app" loading="lazy"></iframe>
-                    <iframe title="html counting app" class="app-frame"
-                        src="https://josh-wayles-counter-app.netlify.app" loading="lazy"></iframe>
-                </div>
-        </section>
-
-        <hr />
-
-        <section id="section-illustration">
-
-            <h2 class="heading">Illustration</h2>
-
-            <p class="paragraph-txt">Experience in: Procreate, Photoshop, Illustrator and traditional mediums</p>
-
-            <hr class="title-hr" />
-
-            <h3 class="project-title">Batman character design</h3>
-            <p class="paragraph-txt">A personal project to explore Batman as a character. I wanted to move away from the
-                more
-                typical top heavy design and lean more into exagerated shapes ("I am the night, I am soo cool, look at
-                my
-                belt").</p>
-
-            <hr />
-
-            <img title="a stylised illustration of batman stood on a building" class="paper-size-img" id="batman"
-                src="images/josh_wayles_illustration_batman.jpg"
-                alt="a stylised illustration of batman stood on a building">
-
-            <hr />
-
-            <h3 class="project-title">Exercise gator</h3>
-            <p class="paragraph-txt">Based on a character I quickly sketched out one day in my sketchbook. We all want
-                to be a
-                little bit better. Sometimes its tricky. It was also a good excuse to study one of my favourite animals.
-            </p>
-
-            <hr />
-
-            <img title="a cartoon alligator exercising with weights" class="paper-size-img" id="exercise-gator"
-                src="images/croc/josh_wayles_illustration_alligator_crocodile_character.jpg"
-                alt="a cartoon alligator exercising with weights" loading="lazy">
-            <p class="img-counter" id="gator-img-counter">1/4</p>
-            <div class="multi-img-btn-display">
-                <button id="gator-previous" onclick="imageChange(this)">Previous</button>
-                <button id="gator-next" onclick="imageChange(this)">Next</button>
+            </div>
+            <div class="frame-display">
+                <iframe title="html blackjack app" class="frame-display__frame"
+                    src="https://josh-wayles-blackjack-app.netlify.app" loading="lazy"></iframe>
+                <iframe title="html boardgame utility app" class="frame-display__frame"
+                    src="https://josh-wayles-dice-pal.netlify.app" loading="lazy"></iframe>
+                <iframe title="html counting app" class="frame-display__frame"
+                    src="https://josh-wayles-counter-app.netlify.app" loading="lazy"></iframe>
             </div>
 
-            <hr />
+        </section>
 
-            <h3 class="project-title">Hey Duggee Spiderman and Raphael</h3>
-            <p class="paragraph-txt">A personal project to explore translating characters into a style I was unfamiliar
-                with.
-            </p>
+        <section class="section" id="section-illustration">
 
-            <hr />
+            <h2 class="section__heading">Illustration</h2>
+            <p class="section__sub-heading">Experience in: Procreate, Photoshop, Illustrator and traditional mediums</p>
 
-            <img title="spiderman and the teenage mutant ninja turtle raphael drawn in the style of hey duggee"
-                class="paper-size-img" id="hey-duggee"
-                src="images/josh_wayles_illustration_hey_duggee_spiderman_tmnt.jpg"
-                alt="spiderman and the teenage mutant ninja turtle raphael drawn in the style of hey duggee"
-                loading="lazy">
+            <div class="project">
+                <h3 class="project__title">Batman character design</h3>
+                <p class="project__description">A personal project to explore Batman as a character. I wanted to move
+                    away from the more typical top heavy design and lean more into exagerated shapes ("I am the night, I
+                    am soo cool, look at my belt").</p>
 
-            <hr />
+                <img title="a stylised illustration of batman stood on a building"
+                    class="project__image project__image--landscape" id="batman"
+                    src="images/josh_wayles_illustration_batman.jpg"
+                    alt="a stylised illustration of batman stood on a building" loading="lazy">
+            </div>
 
-            <h3 class="project-title">Digital colour studies</h3>
-            <p class="paragraph-txt">Colour studies made whilst testing out a custom brush pack I made for Procreate. It
-                is
-                available <a href="https://ko-fi.com/s/fb44badfec">here.</a></p>
+            <div class="project">
+                <h3 class="project__title">Exercise gator</h3>
+                <p class="project__description">Based on a character I quickly sketched out one day in my sketchbook. We
+                    all
+                    want to be a little bit better. Sometimes its tricky. It was also a good excuse to study one of my
+                    favourite
+                    animals.
+                </p>
 
-            <hr />
+                <img title="a cartoon alligator exercising with weights"
+                    class="project__image project__image--landscape" id="gator-img"
+                    src="images/croc/josh_wayles_illustration_alligator_crocodile_character.jpg"
+                    alt="a cartoon alligator exercising with weights" loading="lazy">
+            </div>
 
-            <img title="digital colour studies of three bird heads" class="paper-size-img" id="birds"
-                src="images/josh_wayles_illustration_colour_study_birds.jpg"
-                alt="digital colour studies of three bird heads" loading="lazy">
+            <div class="thumbnail">
+                <img title="a cartoon alligator exercising with weights" class="thumbnail__image thumbnail__image--4"
+                    onclick="gatorImageChange(this)"
+                    src="images/croc/josh_wayles_illustration_alligator_crocodile_character.jpg"
+                    alt="a cartoon alligator exercising with weights" loading="lazy">
+                <img title="a cartoon alligator exercising with weights" class="thumbnail__image thumbnail__image--4"
+                    onclick="gatorImageChange(this)"
+                    src="images/croc/josh_wayles_illustration_alligator_crocodile_shapes.jpg"
+                    alt="a cartoon alligator exercising with weights" loading="lazy">
+                <img title="a cartoon alligator exercising with weights" class="thumbnail__image thumbnail__image--4"
+                    onclick="gatorImageChange(this)"
+                    src="images/croc/josh_wayles_illustration_alligator_crocodile_value.jpg"
+                    alt="a cartoon alligator exercising with weights" loading="lazy">
+                <img title="a cartoon alligator exercising with weights" class="thumbnail__image thumbnail__image--4"
+                    onclick="gatorImageChange(this)"
+                    src="images/croc/josh_wayles_illustration_alligator_crocodile_character_sketch.jpg"
+                    alt="a cartoon alligator exercising with weights" loading="lazy">
+            </div>
 
-            <hr />
+            <div class="project">
+                <h3 class="project__title">Hey Duggee Spiderman and Raphael</h3>
+                <p class="project__description">A personal project to explore translating characters into a style I was
+                    unfamiliar with.
+                </p>
 
-            <h3 class="project-title">Various sketches</h3>
-            <p class="paragraph-txt">Digital sketches made in Procreate.</p>
-
-            <hr />
-
-            <div class="multi-img-display" id="digital-sketches">
-                <img title="digital sketch of various faces" class="gallery-img"
-                    src="images/sketch/josh_wayles_illustration_sketch_faces_1.jpg"
-                    alt="digital sketch of various faces" loading="lazy">
-                <img title="digital sketch of various faces" class="gallery-img"
-                    src="images/sketch/josh_wayles_illustration_sketch_faces_2.jpg"
-                    alt="digital sketch of various faces" loading="lazy">
-                <img title="digital sketch of various gesture poses" class="gallery-img"
-                    src="images/sketch/josh_wayles_illustration_sketch_gesture.jpg"
-                    alt="digital sketch of various gesture poses" loading="lazy">
-                <img title="digital sketch of two hands" class="gallery-img"
-                    src="images/sketch/josh_wayles_illustration_sketch_hands.jpg" alt="digital sketch of two hands"
+                <img title="spiderman and the teenage mutant ninja turtle raphael drawn in the style of hey duggee"
+                    class="project__image project__image--landscape" id="hey-duggee"
+                    src="images/josh_wayles_illustration_hey_duggee_spiderman_tmnt.jpg"
+                    alt="spiderman and the teenage mutant ninja turtle raphael drawn in the style of hey duggee"
                     loading="lazy">
             </div>
 
-            <hr />
+            <div class="project">
+                <h3 class="project__title">Digital colour studies</h3>
+                <p class="project__description">Colour studies made whilst testing out a custom brush pack I made for
+                    Procreate. It is available <a href="https://ko-fi.com/s/fb44badfec">here.</a></p>
+
+                <img title="digital colour studies of three bird heads" class="project__image project__image--landscape"
+                    id="birds" src="images/josh_wayles_illustration_colour_study_birds.jpg"
+                    alt="digital colour studies of three bird heads" loading="lazy">
+            </div>
+
+            <div class="project">
+                <h3 class="project__title">Various sketches</h3>
+                <p class="project__description">Digital sketches made in Procreate.</p>
+            </div>
+
+            <img title="digital sketch of various faces" class="project__image project__image--portrait"
+                src="images/sketch/josh_wayles_illustration_sketch_faces_1.jpg" alt="digital sketch of various faces"
+                loading="lazy">
+            <img title="digital sketch of various faces" class="project__image project__image--portrait"
+                src="images/sketch/josh_wayles_illustration_sketch_faces_2.jpg" alt="digital sketch of various faces"
+                loading="lazy">
+            <img title="digital sketch of various gesture poses" class="project__image project__image--portrait"
+                src="images/sketch/josh_wayles_illustration_sketch_gesture.jpg"
+                alt="digital sketch of various gesture poses" loading="lazy">
+            <img title="digital sketch of two hands" class="project__image project__image--portrait"
+                src="images/sketch/josh_wayles_illustration_sketch_hands.jpg" alt="digital sketch of two hands"
+                loading="lazy">
+            <img title="digital sketch of various forms" class="project__image project__image--landscape"
+                src="images/sketch/josh_wayles_form_study.jpg" alt="digital sketch of various forms" loading="lazy">
+            <img title="digital sketch of a tiger" class="project__image project__image--portrait"
+                src="images/sketch/josh_wayles_digital_sketch_tiger.jpg" alt="digital sketch of a tiger" loading="lazy">
+            <img title="digital sketch of alligators" class="project__image project__image--portrait"
+                src="images/sketch/josh_wayles_digital_sketch_alligator.jpg" alt="digital sketch of alligators"
+                loading="lazy">
 
         </section>
 
@@ -236,16 +247,25 @@
 
     <footer>
 
-        <p class="paragraph-txt">Hey, thanks for coming all the way down here. Seems you'd like to get to know me in
-            more
-            detail. Here are some random Josh facts to tell your pals.</p>
-        <button id="josh-facts">Generate</button>
-        <p class="paragraph-txt" id="facts-output">...</p>
+        <div class="project">
+            <p class="project__description">Hey, thanks for coming all the way down here. Seems you'd like to get to
+                know me better. Here are some fun Josh facts for you:</p>
+            <button id="josh-facts">Generate</button>
+            <p class="paragraph-txt" id="facts-output">...</p>
+        </div>
 
     </footer>
 
     <script src="script.js"></script>
-
+    <script type="text/javascript">
+        (function () {
+            var css = document.createElement('link');
+            css.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+    </script>
 
 </body>
 
