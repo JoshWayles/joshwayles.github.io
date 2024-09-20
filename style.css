@@ -69,6 +69,7 @@ button {
   padding: 15px 18px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
   color: var(--colour2);
   background-color: var(--colour1);
 }
@@ -197,6 +198,7 @@ button {
   border: 2px solid var(--colour3);
   margin: 4px;
   opacity: 100%;
+  cursor:pointer;
 }
 
 .frame-display {
