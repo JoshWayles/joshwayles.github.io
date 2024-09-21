@@ -65,7 +65,7 @@ button {
 .nav__button {
   display: block;
   margin: 5px;
-  font-size:18px;
+  font-size: 18px;
   padding: 15px 18px;
   border: none;
   border-radius: 5px;
@@ -149,7 +149,7 @@ button {
 .project__image {
   border: 1px solid lightgray;
   border-radius: 10px;
-  margin: 10px auto 20px;
+  margin: 10px auto 22px;
 }
 
 .project__image--landscape {
@@ -167,7 +167,6 @@ button {
   margin: 20px auto;
   width: 80vw;
   max-width: 600px;
-  height: 245px;
 }
 
 .thumbnail {
@@ -198,7 +197,7 @@ button {
   border: 2px solid var(--colour3);
   margin: 4px;
   opacity: 100%;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .frame-display {
@@ -245,6 +244,10 @@ button {
   .project__description {
     font-size: 16px;
   }
+
+  .project__music {
+    height: 285px;
+  }
 }
 
 @media only screen and (min-width: 813px) {
@@ -276,5 +279,9 @@ button {
 
   .project__description {
     font-size: 20px;
+  }
+
+  .project__music {
+    height: 245px;
   }
 }
