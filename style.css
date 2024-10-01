@@ -65,7 +65,6 @@ button {
 
 .nav__button {
   display: block;
-  margin: 10px;
   font-size: 18px;
   padding: 15px 18px;
   border: none;
@@ -93,11 +92,11 @@ button {
 }
 
 .section__divider {
-  margin: 10px 0;
+  margin: 0 0 10px;
   width: 80vw;
   max-width: 500px;
   background-color: var(--colour4);
-  padding: 10px;
+  padding: 20px;
 }
 
 .section__heading {
@@ -246,6 +245,10 @@ button {
     padding: 18px 18px;
   }
 
+  .nav__button {
+    margin: 10px;
+  }
+
   .section__heading {
     font-size: 20px;
   }
@@ -280,6 +283,10 @@ button {
   .nav__link {
     font-size: 20px;
     padding: 15px 15px;
+  }
+
+  .nav__button {
+    margin: 15px;
   }
 
   .section__heading {
