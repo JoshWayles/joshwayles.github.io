@@ -96,7 +96,7 @@ button {
   width: 80vw;
   max-width: 500px;
   background-color: var(--colour4);
-  padding: 20px;
+  padding: 0 20px 0;
 }
 
 .section__heading {
