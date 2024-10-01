@@ -11,15 +11,17 @@ function dayNightChange() {
         dayNightIcon.classList.remove("fa-moon");
         dayNightIcon.classList.add("fa-sun");
         colourVariables.setProperty('--colour1', '#ffffff');
-        colourVariables.setProperty('--colour2', '#000000');
-        colourVariables.setProperty('--colour3', '#bbbbbb');
+        colourVariables.setProperty('--colour2', '#1a1a1a');
+        colourVariables.setProperty('--colour3', '#dddddd');
+        colourVariables.setProperty('--colour4', '#696969');
         dayMode = false;
     } else {
         dayNightIcon.classList.add("fa-moon");
         dayNightIcon.classList.remove("fa-sun");
         colourVariables.setProperty('--colour2', '#ffffff');
-        colourVariables.setProperty('--colour1', '#000000');
+        colourVariables.setProperty('--colour1', '#1a1a1a');
         colourVariables.setProperty('--colour3', '#696969');
+        colourVariables.setProperty('--colour4', '#dddddd');
         dayMode = true;
     }
 }

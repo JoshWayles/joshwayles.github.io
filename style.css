@@ -1,5 +1,5 @@
 :root {
-  --colour1: #000000;
+  --colour1: #1a1a1a;
   --colour2: #ffffff;
   --colour3: #696969;
   --colour4: #dddddd;
@@ -18,7 +18,8 @@ a {
 }
 
 h1 {
-  margin: 20px auto -5px;
+  padding: 15px;
+  margin: 10px auto;
 }
 
 button {
@@ -64,14 +65,14 @@ button {
 
 .nav__button {
   display: block;
-  margin: 5px;
+  margin: 12px;
   font-size: 18px;
   padding: 15px 18px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   color: var(--colour2);
-  background-color: var(--colour1);
+  background-color: var(--colour3);
 }
 
 #nav-spacer {
@@ -85,13 +86,26 @@ button {
   width: 95vw;
 }
 
+.flex__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section__divider {
+  width: 80vw;
+  max-width: 500px;
+  background-color: var(--colour4);
+  padding: 10px;
+}
+
 .section__heading {
-  margin: 15px 0 -10px 0;
+  margin: 20px auto 0px;
   font-weight: lighter;
 }
 
 .section__sub-heading {
-  margin: 20px auto;
+  margin: 10px auto 20px;
   width: 65vw;
 }
 
@@ -99,7 +113,7 @@ button {
   margin: auto;
 }
 
-.about__image {
+.about__profile-image {
   border-radius: 50%;
   display: block;
   margin: 20px auto;
@@ -109,10 +123,15 @@ button {
   max-width: 300px;
 }
 
-.about__text {
-  margin: 0 auto 20px;
+.about__image {
+  margin: 20px auto;
   width: 80vw;
-  max-width: 600px;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.about__text {
+  margin: 20px auto 0;
 }
 
 .social-icons {
@@ -138,6 +157,7 @@ button {
 
 .project__title {
   font-weight: lighter;
+  margin: 25px auto 10px;
 }
 
 .project__description {
@@ -214,10 +234,10 @@ button {
   width: 375px;
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 500px) {
 
   h1 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .nav__link {
@@ -250,10 +270,10 @@ button {
   }
 }
 
-@media only screen and (min-width: 813px) {
+@media only screen and (min-width: 501px) {
 
   h1 {
-    font-size: 30px;
+    font-size: 32px;
   }
 
   .nav__link {
