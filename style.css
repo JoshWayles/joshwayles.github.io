@@ -65,7 +65,7 @@ button {
 
 .nav__button {
   display: block;
-  margin: 12px;
+  margin: 10px;
   font-size: 18px;
   padding: 15px 18px;
   border: none;
@@ -93,6 +93,7 @@ button {
 }
 
 .section__divider {
+  margin: 10px 0;
   width: 80vw;
   max-width: 500px;
   background-color: var(--colour4);
@@ -131,7 +132,7 @@ button {
 }
 
 .about__text {
-  margin: 20px auto 0;
+  margin: 20px auto 10;
 }
 
 .social-icons {
