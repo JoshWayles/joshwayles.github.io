@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="author" content="Josh Wayles" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Freelance illustrator and coder Josh Wayles' coding portfolio">
+    <meta name="keywords" content="Website, Portfolio, Games, Illustration">
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Josh Wayles</title>
+
+    <meta property="og:title" content="Josh Wayles" />
+    <meta property="og:image" content="images/josh_wayles_logo.jpg" />
+    <meta property="og:description" content="Freelance illustrator and coder" />
+    <meta property="og:url" content="https://joshwayles.github.io." />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+    <meta property="og:type" content="website" />
+
+    <!-- Google fonts Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Google fonts Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Social Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="header__title">__JOSH WAYLES__</h1>
+        <p class="header__subtitle">Freelance code and Illustration</p>
+
+        <nav aria-label="skip to section" class="nav" id="nav">
+
+            <a class="nav__link" href="index.html">Home</a>
+            <a class="nav__link current-page" href="coding.html">Coding</a>
+            <a class="nav__link" href="illustration.html">Illustration</a>
+
+        </nav>
+    </header>
+
+    <div class="content-spacer content-spacer--big"></div>
+
+    <div class="container container--medium-width">
+
+        <main class="main">
+
+            <div class="project">
+                <h3 class="project__title">Meowsteroids</h3>
+                <p class="project__body">Meowsteroids was my first game development project. Created in GameMaker
+                    Studio. This asteroids like game sees you fighting off waves of pesky cats. It is available to play
+                    <a aria-label="link to play meowsteroids"
+                        href="https://gx.games/games/0licns/meowsteroids/">here.</a>
+                </p>
+
+                <div class="project__image">
+                    <img class="project__image project__image--landscape" id="meowsteroids-img"
+                        src="images/meowsteroids/josh_wayles_meowsteroids_title.jpg"
+                        alt="screenshots from the asteroids like game meowsteroids" loading="lazy">
+
+                    <div class="thumbnail" aria-label="thumbnails to change main image">
+                        <img class="thumbnail__image thumbnail__image--3" onclick="meowImageChange(this)"
+                            src="images/meowsteroids/josh_wayles_meowsteroids_title.jpg" alt="meowsteroids title page"
+                            loading="lazy">
+                        <img class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                            src="images/meowsteroids/josh_wayles_meowsteroids_music.jpg" alt="meowsteroids music page"
+                            loading="lazy">
+                        <img class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                            src="images/meowsteroids/josh_wayles_meowsteroids_controls.jpg"
+                            alt="meowsteroids controls page" loading="lazy">
+                        <img class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                            src="images/meowsteroids/josh_wayles_meowsteroids_game1.jpg" alt="meowsteroids game 1"
+                            loading="lazy">
+                        <img class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                            src="images/meowsteroids/josh_wayles_meowsteroids_game2.jpg" alt="meowsteroids game 2"
+                            loading="lazy">
+                        <img class="thumbnail__image  thumbnail__image--3" onclick="meowImageChange(this)"
+                            src="images/meowsteroids/josh_wayles_meowsteroids_game3.jpg" alt="meowsteroids game 3"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3 class="project__title">Meowsteroids soundtrack</h3>
+                <p class="project__body">To add a little more variety to the game experience I created three
+                    distinct tracks. The first, inspired by classic videogame music, was created in
+                    FamiStudio. I remixed this into two other styles in Ableton in ableton.</p>
+                <div class="project--music-flex">
+                <iframe class="project__music" title="music player for the meowsteroids game soundtrack" style="border: 0"
+                    src="https://bandcamp.com/EmbeddedPlayer/album=3588984896/size=large/bgcol=ffffff/linkcol=63b2cc/artwork=small/transparent=true/"
+                    seamless><a href="https://joshwayles.bandcamp.com/album/meowsteroids-ost">Meowsteroids OST by Josh
+                        Wayles</a></iframe>
+                    <img class="project__music--image" src="images/meowsteroids/josh_wayles_meowsteroids_album.jpg">
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+    <div class="content-spacer content-spacer--mid"></div>
+
+    <footer class="footer">
+
+        <p class="footer__text">Lets connect!</p>
+
+        <div class="social-icons">
+            <a aria-label="link to github" class="social-icons__link" href="https://github.com/JoshWayles"><i
+                    role="presentation" class="fa-brands fa-github"></i></a>
+            <a aria-label="link to linkedin" class="social-icons__link"
+                href="https://www.linkedin.com/in/josh-wayles-0a90521ba/"><i role="presentation"
+                    class="fa-brands fa-linkedin"></i></a>
+            <a aria-label="link to twitter" class="social-icons__link" href="https://x.com/JoshWaylesGames"><i
+                    role="presentation" class="fa-brands fa-twitter"></i></a>
+            <a aria-label="link to contact form" class="social-icons__link"
+                href="https://forms.gle/ByCnt6z9Kf9VAMFk9"><i role="presentation" class="fa-solid fa-envelope"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="src/script.js"></script>
+
+</body>
+
+</html>
