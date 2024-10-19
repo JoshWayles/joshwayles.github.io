@@ -60,6 +60,10 @@ iframe {
     height: 6em;
 }
 
+#about-me {
+    scroll-margin-top: 6em;
+}
+
 @media (min-width: 850px) {
 
     body {
