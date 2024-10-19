@@ -230,7 +230,7 @@ a {
     align-items: center;
     border: 2px solid var(--dark-text);
     border-radius: 1em;
-    padding: 0.5em;
+    padding: 1em;
     margin-bottom: 1.5em;
 }
 
@@ -266,7 +266,6 @@ a {
     .card {
         flex-direction: column;
         width: 25%;
-        padding: 1em;
     }
 
     .card:hover,
