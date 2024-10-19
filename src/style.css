@@ -104,7 +104,6 @@ h2,
 h3 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    margin-bottom: 0.5em;
 }
 
 h1 {
@@ -234,16 +233,16 @@ a {
     margin-bottom: 1.5em;
 }
 
-.card-text__title {
-    margin: 0.25em 0;
-}
-
 .card__image {
     order: -1;
     width: 65px;
     height: 65px;
     margin-right: 1em;
     border-radius: 0.5em;
+}
+
+.card-text__title {
+    margin-bottom: 0.25em;
 }
 
 .card__desktop-image {
@@ -287,6 +286,10 @@ a {
     .card-text {
         height: 200px;
         border-bottom: 1px solid var(--light-text);
+    }
+
+    .card-text__title {
+        margin: 0.25em 0;
     }
 }
 
