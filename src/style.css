@@ -57,7 +57,7 @@ iframe {
 
 .content-spacer {
     width: 100%;
-    height: 6em;
+    height: 5.5em;
 }
 
 #about-me {
@@ -79,6 +79,11 @@ iframe {
 
     nav {
         padding: 0;
+    }
+
+    .content-spacer {
+        width: 100%;
+        height: 4.75em;
     }
 }
 
