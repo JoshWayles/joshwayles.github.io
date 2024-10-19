@@ -12,8 +12,8 @@
     <title>Josh Wayles</title>
 
     <meta property="og:title" content="Josh Wayles" />
-    <meta property="og:image" content="images/josh_wayles_logo.jpg" />
-    <meta property="og:description" content="Freelance illustrator and coder" />
+    <meta property="og:image" content="images/josh_wayles_spiderman.jpg" />
+    <meta property="og:description" content="Freelance code and illustration" />
     <meta property="og:url" content="https://joshwayles.github.io." />
     <meta property="og:image:width" content="400" />
     <meta property="og:image:height" content="400" />
@@ -39,14 +39,14 @@
 <body>
 
     <header class="header">
-        <h1 class="header__title">__JOSH WAYLES__</h1>
+        <h1 class="header__title"><a aria-label="link to home page" href="index.html">__JOSH WAYLES__</a></h1>
         <p class="header__subtitle">Freelance code and Illustration</p>
 
         <nav aria-label="skip to section" class="nav" id="nav">
 
-            <a class="nav__link current-page" href="index.html">Home</a>
-            <a class="nav__link" href="coding.html">Coding</a>
-            <a class="nav__link" href="illustration.html">Illustration</a>
+            <a aria-label="link to home page" class="nav__link current-page" href="index.html">Home</a>
+            <a aria-label="link to coding portfolio" class="nav__link" href="coding.html">Coding</a>
+            <a aria-label="link to illustration portfolio" class="nav__link" href="illustration.html">Illustration</a>
 
         </nav>
     </header>
@@ -59,17 +59,7 @@
 
             <div class="card-display">
 
-                <!--<a class="card" href="#">
-                    <div class="card-text">
-                        <h2 class="card-text__title">About</h2>
-                        <p class="card-text__body">Doing a little something here but what if i make this much longer oh
-                            no</p>
-                    </div>
-                    <img class="card__image" src="images/josh_wayles_spiderman.jpg" alt="a digital illustration of a home made spiderman outfit"loading="lazy">
-                    <img class="card__desktop-image " src="images/josh_wayles_recent_sketch.jpg" loading="lazy">
-                </a>-->
-
-                <a class="card" href="coding.html">
+                <a class="card" aria-label="link to coding portfolio" href="coding.html">
                     <div class="card-text">
                         <h2 class="card-text__title">Coding</h2>
                         <p class="card-text__body">I have been coding since April and loving it! I am currently learning
@@ -77,11 +67,11 @@
                     </div>
                     <img class="card__image" src="images/josh_wayles_illustration_dealer.jpg"
                         alt="a cartoon don with an excited expression" loading="lazy">
-                    <img class="card__desktop-image " src="images/meowsteroids/josh_wayles_meowsteroids_title.jpg"
-                        loading="lazy">
+                    <img class="card__desktop-image" src="images/meowsteroids/josh_wayles_meowsteroids_title.jpg"
+                        alt="meowsteroids title page" loading="lazy">
                 </a>
 
-                <a class="card" href="illustration.html">
+                <a class="card" aria-label="link to illustration portfolio" href="illustration.html">
                     <div class="card-text">
                         <h2 class="card-text__title">Illustration</h2>
                         <p class="card-text__body">I love drawing. I find the seemingly infinite ways something can be
@@ -89,15 +79,28 @@
                     </div>
                     <img class="card__image" src="images/sketch/josh_wayles_digital_sketch_tiger.jpg"
                         alt="a digital sketch of a tiger" loading="lazy">
-                    <img class="card__desktop-image " src="images/josh_wayles_illustration_batman.jpg" loading="lazy">
+                    <img class="card__desktop-image" src="images/josh_wayles_illustration_batman.jpg"
+                        alt="a stylised illustration of batman stood on a building" loading="lazy">
+                </a>
+
+                <a class="card" aria-label="link to about me section at the bottom of the home page" href="#about-me">
+                    <div class="card-text">
+                        <h2 class="card-text__title">About</h2>
+                        <p class="card-text__body">I'm a freelance coder and illustrator that has lived in Madrid for
+                            (checks watch) about a month. Click to learn more about me.</p>
+                    </div>
+                    <img class="card__image" src="images/josh_wayles_spiderman.jpg"
+                        alt="a digital sketch of a home made spidermen outfit" loading="lazy">
+                    <img class="card__desktop-image" src="images/josh_wayles_recent_sketch.jpg"
+                        alt="sketches from the meseo del traje" loading="lazy">
                 </a>
 
             </div>
 
             <div class="project project--border-bottom project--flex-reverse">
                 <div class="project__text-content">
-                    <h2 class="project__title">My favourite pens mini project</h2>
-                    <p class="project__body project__body--wide">I have recently moved and had to downscale quite a lot.
+                    <h3 class="project__title">My favourite pens mini project</h3>
+                    <p class="project__body">I have recently moved and had to downscale quite a lot.
                         This meant saying
                         goodbye to boxes and boxes of art materials. This got me
                         thinking about what my favourite drawing tools actually are. I knew the
@@ -109,7 +112,21 @@
                 </div>
                 <img class="project__image project__image--recent" src="images/josh_wayles_favourite_pens_example.jpg"
                     alt="a sketchbook page made digitally in procreate" loading="lazy">
+            </div>
 
+            <div class="project project--border-bottom project--flex-reverse" id="about-me">
+                <div class="project__text-content">
+                    <h3 class="project__title">A little about me</h3>
+                    <p class="project__body">Hello, my name is Josh. I have always loved making and creating things. In
+                        the past have mostly put this energy into visual art with a sprinkling of music production. This
+                        year I began learning coding and found it scratching an itch for problem solving and project
+                        building that I haven't dived into since I was obsessed with K'NEX when I was younger. I'm
+                        looking foward to seeing where it leads and how my other creative skills can be augmented into
+                        it.</p>
+                    <p class="project__body"></p>
+                </div>
+                <img class="project__image project__image--about" src="images/josh_wayles_portrait.jpg"
+                    alt="a black and white photograph of me in nature" loading="lazy">
             </div>
 
         </main>
@@ -131,6 +148,8 @@
             <a aria-label="link to contact form" class="social-icons__link"
                 href="https://forms.gle/ByCnt6z9Kf9VAMFk9"><i role="presentation" class="fa-solid fa-envelope"></i></a>
         </div>
+
+        <p class="footer__text">Code and assets by Josh Wayles &#169;2024</p>
 
     </footer>
 

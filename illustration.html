@@ -12,8 +12,8 @@
     <title>Josh Wayles</title>
 
     <meta property="og:title" content="Josh Wayles" />
-    <meta property="og:image" content="images/josh_wayles_logo.jpg" />
-    <meta property="og:description" content="Freelance illustrator and coder" />
+    <meta property="og:image" content="images/josh_wayles_spiderman.jpg" />
+    <meta property="og:description" content="Freelance code and illustration" />
     <meta property="og:url" content="https://joshwayles.github.io." />
     <meta property="og:image:width" content="400" />
     <meta property="og:image:height" content="400" />
@@ -22,13 +22,13 @@
     <!-- Google fonts Lato-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css3?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- Google fonts Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css3?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
     <!-- Social Icons-->
@@ -39,14 +39,15 @@
 <body>
 
     <header class="header">
-        <h1 class="header__title">__JOSH WAYLES__</h1>
+        <h1 class="header__title"><a aria-label="link to home page" href="index.html">__JOSH WAYLES__</a></h1>
         <p class="header__subtitle">Freelance code and Illustration</p>
 
-        <nav aria-label="skip to section" class="nav" id="nav">
+        <nav class="nav" id="nav">
 
-            <a class="nav__link" href="index.html">Home</a>
-            <a class="nav__link" href="coding.html">Coding</a>
-            <a class="nav__link current-page" href="illustration.html">Illustration</a>
+            <a aria-label="link to home page" class="nav__link" href="index.html">Home</a>
+            <a aria-label="link to coding portfolio" class="nav__link" href="coding.html">Coding</a>
+            <a aria-label="link to illustration portfolio" class="nav__link current-page"
+                href="illustration.html">Illustration</a>
 
         </nav>
     </header>
@@ -57,8 +58,10 @@
 
         <main class="main">
 
+            <h2 class="page__title">__Illustration Portfolio__</h2>
+
             <div class="project">
-                <h2 class="project__title">Batman character design</h2>
+                <h3 class="project__title">Batman character design</h3>
                 <p class="project__body">A personal project to explore Batman as a character. I wanted to move
                     away from the more typical top heavy design and lean more into exagerated shapes.</p>
                 <img class="project__image" id="batman" src="images/josh_wayles_illustration_batman.jpg"
@@ -66,37 +69,35 @@
             </div>
 
             <div class="project">
-                <h2 class="project__title">Exercise gator</h2>
+                <h3 class="project__title">Exercise gator</h3>
                 <p class="project__body">Based on a character I quickly sketched out one day in my sketchbook. We
                     all
                     want to be a little bit better. Sometimes its tricky. It was also a good excuse to study one of my
                     favourite
                     animals.</p>
 
-                <div class="project__image">
-                    <img class="project__image" id="gator-img"
+                <img class="project__image" id="gator-img"
+                    src="images/croc/josh_wayles_illustration_alligator_crocodile_character.jpg"
+                    alt="a cartoon alligator exercising with weights" loading="lazy">
+
+                <div class="thumbnail">
+                    <img class="thumbnail__image thumbnail__image--2" onclick="gatorImageChange(this)"
                         src="images/croc/josh_wayles_illustration_alligator_crocodile_character.jpg"
                         alt="a cartoon alligator exercising with weights" loading="lazy">
-
-                    <div class="thumbnail">
-                        <img class="thumbnail__image thumbnail__image--4" onclick="gatorImageChange(this)"
-                            src="images/croc/josh_wayles_illustration_alligator_crocodile_character.jpg"
-                            alt="a cartoon alligator exercising with weights" loading="lazy">
-                        <img class="thumbnail__image thumbnail__image--4" onclick="gatorImageChange(this)"
-                            src="images/croc/josh_wayles_illustration_alligator_crocodile_shapes.jpg"
-                            alt="shape studies of alligators" loading="lazy">
-                        <img class="thumbnail__image thumbnail__image--4" onclick="gatorImageChange(this)"
-                            src="images/croc/josh_wayles_illustration_alligator_crocodile_value.jpg"
-                            alt="value studies of alligators" loading="lazy">
-                        <img class="thumbnail__image thumbnail__image--4" onclick="gatorImageChange(this)"
-                            src="images/croc/josh_wayles_illustration_alligator_crocodile_character_sketch.jpg"
-                            alt="a sketch of a cartoon alligator exercising with weights" loading="lazy">
-                    </div>
+                    <img class="thumbnail__image thumbnail__image--2" onclick="gatorImageChange(this)"
+                        src="images/croc/josh_wayles_illustration_alligator_crocodile_shapes.jpg"
+                        alt="shape studies of alligators" loading="lazy">
+                    <img class="thumbnail__image thumbnail__image--2" onclick="gatorImageChange(this)"
+                        src="images/croc/josh_wayles_illustration_alligator_crocodile_value.jpg"
+                        alt="value studies of alligators" loading="lazy">
+                    <img class="thumbnail__image thumbnail__image--2" onclick="gatorImageChange(this)"
+                        src="images/croc/josh_wayles_illustration_alligator_crocodile_character_sketch.jpg"
+                        alt="a sketch of a cartoon alligator exercising with weights" loading="lazy">
                 </div>
             </div>
 
             <div class="project">
-                <h2 class="project__title">Hey Duggee Spiderman and Raphael</h2>
+                <h3 class="project__title">Hey Duggee Spiderman and Raphael</h3>
                 <p class="project__body">A personal project to explore translating characters into a style I was
                     unfamiliar with.
                 </p>
@@ -107,7 +108,7 @@
             </div>
 
             <div class="project">
-                <h2 class="project__title">Digital colour studies</h2>
+                <h3 class="project__title">Digital colour studies</h3>
                 <p class="project__body">Colour studies made whilst testing out a custom brush pack I made for
                     Procreate. It is available <a class="project__link" aria-label="link to my kofi page shop"
                         href="https://ko-fi.com/s/fb44badfec">here</a>.</p>
@@ -117,7 +118,7 @@
             </div>
 
             <div class="project">
-                <h2 class="project__title">Various sketches</h2>
+                <h3 class="project__title">Various sketches</h3>
                 <p class="project__body">Digital sketches made in Procreate.</p>
                 <div class="project__image--multi">
                     <img class="project__image project__image--portrait"
@@ -155,13 +156,15 @@
             <a aria-label="link to github" class="social-icons__link" href="https://github.com/JoshWayles"><i
                     role="presentation" class="fa-brands fa-github"></i></a>
             <a aria-label="link to linkedin" class="social-icons__link"
-                href="https://www.linkedin.com/in/josh-wayles-0a90521ba/"><i role="presentation"
+                href="https://www.linkedin.com/in/josh-wayles-0a90531ba/"><i role="presentation"
                     class="fa-brands fa-linkedin"></i></a>
             <a aria-label="link to twitter" class="social-icons__link" href="https://x.com/JoshWaylesGames"><i
                     role="presentation" class="fa-brands fa-twitter"></i></a>
             <a aria-label="link to contact form" class="social-icons__link"
                 href="https://forms.gle/ByCnt6z9Kf9VAMFk9"><i role="presentation" class="fa-solid fa-envelope"></i></a>
         </div>
+
+        <p class="footer__text">Code and assets by Josh Wayles &#169;2024</p>
 
     </footer>
 
