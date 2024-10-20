@@ -61,7 +61,7 @@ iframe {
 }
 
 #about-me {
-    scroll-margin-top: 6.75em;
+    scroll-margin-top: 6.65em;
 }
 
 @media (min-width: 850px) {
@@ -194,7 +194,7 @@ a {
 
 .page__title {
     text-align: center;
-    margin: 1em 0;
+    margin: 1.5em 0 1em;
 }
 
 .card-text__title {
@@ -226,7 +226,8 @@ a {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid var(--dark-text);
-    margin: 1.5em 0 1.5em;
+    margin: 2em 0 1.5em;
+    padding-bottom: 0.5em;
 }
 
 .card {
