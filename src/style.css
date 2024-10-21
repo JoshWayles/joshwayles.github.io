@@ -7,8 +7,11 @@
     --accent: #76b0c9;
 }
 
-body {
+* {
     box-sizing: border-box;
+}
+
+body {
     background-color: #fff;
     font-family: "Roboto", sans-serif;
     margin: 0;
