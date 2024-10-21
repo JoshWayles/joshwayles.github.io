@@ -264,7 +264,7 @@ a {
 
 @keyframes card-in {
     0% {
-        left: 5em;
+        left: 8em;
     }
     100% {
         left: 0;
@@ -401,8 +401,7 @@ a {
 .thumbnail__image:hover,
 .thumbnail__image:focus {
     opacity: 100%;
-    border: 2px solid var(--accent);
-    margin: 3px;
+    border: 1px solid var(--accent);
 }
 
 @media (min-width:800px) {
@@ -446,14 +445,15 @@ a {
 .frame-display__frame {
     border: 1px solid var(--light-block);
     border-radius: 1em;
-    height: 700px;
+    height: 690px;
     width: 100%;
-    margin: 0 1em 1.2em;
+    margin: 0 0 1.2em;
 }
 
 @media (min-width: 400px) {
     .frame-display__frame {
-        width: 365px;
+        width: 400px;
+        margin: 0 0.5em 1.2em;
     }
 }
 
