@@ -266,16 +266,29 @@ a {
     }
 }
 
+@-webkit-keyframes card-in {
+    0% {
+        left: 8em;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
 .card-one {
-    animation: card-in 1s;
+    animation-name: card-in;
+    animation-duration: 1s;
 }
 
 .card-two {
-    animation: card-in 1.5s;
+    animation-name: card-in;
+    animation-duration: 1.5s;
 }
 
 .card-three {
-    animation: card-in 2s;
+    animation-name: card-in;
+    animation-duration: 2s;
 }
 
 .card__image {
