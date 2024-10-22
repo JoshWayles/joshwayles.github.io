@@ -250,6 +250,15 @@ a {
 
 /*card animation*/
 
+@keyframes card-in {
+    0% {
+        left: 8em;
+    }
+    100% {
+        left: 0;
+    }
+}
+
 .card-one {
     animation: card-in 1s;
 }
@@ -260,15 +269,6 @@ a {
 
 .card-three {
     animation: card-in 2s;
-}
-
-@keyframes card-in {
-    0% {
-        left: 8em;
-    }
-    100% {
-        left: 0;
-    }
 }
 
 .card__image {
