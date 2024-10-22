@@ -194,7 +194,7 @@ a {
     }
 
     .nav__link {
-        color: var(--light-text)
+        color: var(--light-text);
     }
 }
 
@@ -228,6 +228,12 @@ a {
     font-weight: 400;
 }
 
+/*Setting h1 back to dark*/
+
+.header__title--link {
+    color: var(--dark-text);
+}
+
 /*===HOME PAGE LAYOUT===*/
 
 .card-display {
@@ -239,7 +245,7 @@ a {
 }
 
 .card {
-    position: relative; 
+    position: relative;
     display: flex;
     align-items: center;
     border: 2px solid var(--dark-text);
@@ -254,6 +260,7 @@ a {
     0% {
         left: 8em;
     }
+
     100% {
         left: 0;
     }
