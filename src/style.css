@@ -250,15 +250,15 @@ a {
 
 /*card animation*/
 
-#card-one {
+.card-one {
     animation: card-in 1s;
 }
 
-#card-two {
+.card-two {
     animation: card-in 1.5s;
 }
 
-#card-three {
+.card-three {
     animation: card-in 2s;
 }
 
