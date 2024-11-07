@@ -317,7 +317,7 @@ a {
 @media (min-width: 850px) {
     .card-display {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .card {
