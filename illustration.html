@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Freelance illustrator and coder Josh Wayles' illustration portfolio">
     <meta name="keywords" content="Website, Portfolio, Games, Illustration">
-    <link rel="stylesheet" href="src/style.css" />
     <title>Josh Wayles</title>
 
     <meta property="og:title" content="Josh Wayles" />
@@ -19,20 +18,23 @@
     <meta property="og:image:height" content="400" />
     <meta property="og:type" content="website" />
 
-    <!-- Google fonts Lato-->
+    <!--Google fonts Lato-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <!-- Google fonts Roboto-->
+    <!--Google fonts Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
-    <!-- Social Icons-->
+    <!--Social Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="src/style.css" />
 
 </head>
 
@@ -61,6 +63,28 @@
             <h2 class="page__title">__Illustration Portfolio__</h2>
 
             <div class="project">
+                <h3 class="project__title">Wild wolf</h3>
+                <p class="project__body">Recently I've been exploring how I can add more energy and character to my
+                    drawings whilst working digitally. I have always enjoyed drawing fast and energetically but tend to
+                    move away from that while creating finished pieces. I thought a wolf would be a good fit for this
+                    experiment.</p>
+
+                <img class="project__image" id="wolf-img" src="images/wolf/josh_wayles_wolf_character.jpg"
+                    alt="a stylised illustration of an excited wolf" loading="lazy">
+
+                <div class="thumbnail">
+                    <img class="thumbnail__image thumbnail__image--2" onclick="wolfImageChange(this)"
+                        src="images/wolf/josh_wayles_wolf_character.jpg"
+                        alt="a stylised illustration of an excited wolf" loading="lazy">
+                    <img class="thumbnail__image thumbnail__image--2" onclick="wolfImageChange(this)"
+                        src="images/wolf/josh_wayles_wolf_head_studies.jpg" alt="studies of wolf heads and expressions"
+                        loading="lazy">
+                    <img class="thumbnail__image thumbnail__image--2" onclick="wolfImageChange(this)"
+                        src="images/wolf/josh_wayles_wolf_pose_studies.jpg" alt="studies of wolf poses" loading="lazy">
+                </div>
+            </div>
+
+            <div class="project">
                 <h3 class="project__title">Batman character design</h3>
                 <p class="project__body">A personal project to explore Batman as a character. I wanted to move
                     away from the more typical top heavy design and lean into exagerated shapes.</p>
@@ -72,7 +96,7 @@
                 <h3 class="project__title">Exercise gator</h3>
                 <p class="project__body">Based on a character I quickly sketched out one day in my sketchbook. We
                     all
-                    want to be a little bit better. Sometimes its tricky. It was also a good excuse to study one of my
+                    want to be a little bit better, sometimes its tricky. It was also a good excuse to study one of my
                     favourite
                     animals.</p>
 
