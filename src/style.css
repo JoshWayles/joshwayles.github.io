@@ -125,6 +125,10 @@ h2 {
     font-size: 1.4em;
 }
 
+h3 {
+    font-size: 1.4em;
+}
+
 p {
     color: var(--light-text);
     font-weight: 300;
@@ -140,13 +144,20 @@ a {
 }
 
 .footer__text {
+    font-size: 1.25em;
+    font-weight: 500;
+    margin:-0.5em 0 0.5em;
+}
+
+.footer__tm-text{
     font-size: 0.9em;
-    margin-bottom: 0.3em;
+    opacity: 0.8;
+    margin: 1em
 }
 
 .social-icons__link {
     color: var(--dark-text);
-    font-size: 2.5em;
+    font-size: 2.75em;
     padding: 0.25em;
 }
 
@@ -201,6 +212,7 @@ a {
 /*Page specific type*/
 
 .page__title {
+    font-size: 1.8em;
     text-align: center;
     margin: 1.5em 0 1em;
 }
@@ -347,7 +359,7 @@ a {
     }
 
     .card-text__title {
-        margin: 0.25em 0;
+        margin: 0.4em 0;
     }
 }
 
