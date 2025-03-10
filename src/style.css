@@ -117,16 +117,16 @@ h3 {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin: 0.05em 0;
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 
 p {
@@ -150,14 +150,14 @@ a {
 }
 
 .footer__tm-text{
-    font-size: 0.9em;
+    font-size: 0.9rem;
     opacity: 0.8;
     margin: 1em
 }
 
 .social-icons__link {
     color: var(--dark-text);
-    font-size: 2.75em;
+    font-size: 2.75rem;
     padding: 0.25em;
 }
 
@@ -433,7 +433,7 @@ a {
 .thumbnail__image:hover,
 .thumbnail__image:focus {
     opacity: 100%;
-    border: 1px solid var(--accent);
+    outline: 2px solid var(--accent);
 }
 
 @media (min-width:800px) {
