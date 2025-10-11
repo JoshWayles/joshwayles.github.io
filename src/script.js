@@ -1,20 +1,11 @@
-//Meowsteroid thumb image change
-const meowsteroids = document.getElementById('meowsteroids-img')
+//NAV BAR FUNCTIONALITY//
 
-function meowImageChange(inp) {
-    meowsteroids.src = inp.src;
+const nav = document.getElementById('nav-menu')
+
+function navOpen() {
+    nav.classList.add('nav-open')
 }
 
-//Gator thumb image change
-const gator = document.getElementById('gator-img')
-
-function gatorImageChange(inp) {
-    gator.src = inp.src;
-}
-
-//Wolf thumb image change
-const wolf = document.getElementById('wolf-img')
-
-function wolfImageChange(inp) {
-    wolf.src = inp.src;
+function navClose() {
+    nav.classList.remove('nav-open')
 }
