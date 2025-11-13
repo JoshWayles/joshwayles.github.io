@@ -133,9 +133,9 @@ nav li:focus {
 
 /*==TOP==*/
 
-.top-container{
+.top-container {
     padding: 1em;
-    width: 100%;  
+    width: 100%;
 }
 
 .icon-top {
@@ -144,20 +144,20 @@ nav li:focus {
 
 /*===CONTENT===*/
 
-.img-container{
+.img-container {
     width: 100%;
     padding: 0 1em;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.project-img{
-    margin: 0.5em ;
+.project-img {
+    margin: 0.5em;
 }
 
-.text-container{
-    width:100%;
+.text-container {
+    width: 100%;
     padding: 1em;
     text-align: center;
 }
@@ -173,52 +173,61 @@ h2 {
     margin: 1em 0 0;
 }
 
-.text-container p{
+.text-container p {
     margin: 1em auto 0;
     max-width: 800px;
 }
 
-.external-link{
+.external-link {
     font-weight: 700;
 }
 
-.external-link:hover, .external-link:focus{
-    color:var(--accent);
+.external-link:hover,
+.external-link:focus {
+    color: var(--accent);
     text-decoration: underline;
 }
 
-.project-img{
+.project-img {
     border-radius: 0.5em;
 }
 
-.project-img__square{
+.project-img__square {
     max-width: 800px;
 }
 
-.project-img__landscape{
+.project-img__landscape {
     max-width: 1200px;
 }
 
-.project-img__portrait{
+.project-img__portrait {
     max-width: 400px;
 }
 
-.music-container{
+.music-container {
     padding: 1em;
 }
 
-.music-meowsteroids{
-    border: 0; 
+.music-meowsteroids {
+    border: 0;
     width: 100%;
     max-width: 700px;
     height: 120px;
-    display:block;
-    margin: 1em auto;
+    display: block;
+    margin: auto;
+}
+
+.music-pepe {
+    border: 0;
+    width: 350px;
+    height: 442px;
+    display: block;
+    margin: auto;
 }
 
 /*==FOOTER==*/
 
-footer{
+footer {
     text-align: center;
     font-size: 0.75em;
 }
@@ -231,7 +240,12 @@ footer{
     }
 
     .nav {
-        width:18em;
+        width: 18em;
+    }
+
+    .music-pepe{
+    width: 680px;
+    height: 772px; 
     }
 
 }
