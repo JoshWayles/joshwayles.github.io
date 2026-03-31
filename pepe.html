@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="author" content="Josh Wayles" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Freelance illustrator Josh Wayles portfolio website">
+    <meta name="keywords" content="Website, Portfolio, Games, Illustration">
+    <title>Josh Wayles</title>
+
+    <meta property="og:title" content="Josh Wayles" />
+    <meta property="og:image" content="images/og-image.jpg" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:description" content="Freelance illustration" />
+    <meta property="og:url" content="https://joshwayles.github.io." />
+    <meta property="og:type" content="website" />
+
+    <!--Google fonts Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--Google fonts Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="src/style.css" />
+
+</head>
+
+<body>
+
+    <!--TITLE AND NAV-->
+
+    <header>
+
+        <nav class="nav" id="nav-menu">
+            <ul>
+                <li><a href="index.html" aria-label="link to home">Home</a></li>
+                <li><a href="pepe.html" aria-label="link to pepe louis project" class="current-page">Pepe louis</a></li>
+                <li><a href="stabilo.html" aria-label="link to stabilo for procreate project">Stabilo Procreate
+                        brush</a></li>
+                <li><a href="pencil-compositions.html" aria-label="link to pencil composition project">Pencil
+                        composition
+                        drawings</a></li>
+                <li><a href="cheap-biro.html" aria-label="link to cheap biro for procreate project">Cheap biro Procreate
+                        brush</a></li>
+                <li><a href="meowsteroids.html" aria-label="link to meowsteroids project">Meowsteroids</a></li>
+                <li><a href="about-contact.html" aria-label="link to about and contact information">About and
+                        contact</a>
+                </li>
+            </ul>
+            <img src="images/icon-close.png" class="icon icon-close" id="btn-close" onclick="navClose()"
+                alt="Close button">
+        </nav>
+
+        <img src="images/icon-burger.png" class="icon icon-burger" id="btn-burger" onclick="navOpen()"
+            alt="Burger menu button">
+
+        <div class="logo-container">
+            <img src="images/icon-logo.png" class="logo" alt="Page logo">
+        </div>
+
+    </header>
+
+    <!--CONTENT-->
+
+    <div class="music-container" role="Project audio content">
+        <iframe class="music-pepe"
+            src="https://bandcamp.com/EmbeddedPlayer/track=3316683134/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+            seamless><a href="https://joshwayles.bandcamp.com/track/pepe-louis-is-a-rat-bastard">Pepe Louis is a rat
+                bastard by Josh Wayles</a></iframe>
+    </div>
+    <div class="text-container" role="Project text content">
+        <h1>Pepe Louis is a rat bastard</h1>
+        <p>A song made primarily from two samples I recorded in my Spanish class from a video exploring how using
+            preterito imperfecto and preterito indefinido alters a story. The titular Pepe Louis cheats on his
+            girlfriend.</p>
+    </div>
+
+    <div class="top-container" role="Area for button to return to the top of the page">
+        <a href="#" aria-label="scroll to top of page">
+            <img src="images/icon-top.png" class="icon icon-top" alt="Back to top arrow">
+        </a>
+    </div>
+
+    <footer>
+        <p class="footer-p">&#xa9; Josh Wayles 2026</p>
+    </footer>
+
+    <script src="src/script.js"></script>
+
+</body>
+
+</html>
