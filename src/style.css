@@ -196,6 +196,10 @@ h2 {
     max-width: 800px;
 }
 
+.project-img__square-small {
+    max-width: 600px;
+}
+
 .project-img__landscape {
     max-width: 1200px;
 }
