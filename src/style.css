@@ -204,6 +204,10 @@ h2 {
     max-width: 400px;
 }
 
+.project-img__spaced {
+    margin: 0.5em 0; 
+}
+
 /*===MUSIC AND VIDEO===*/
 
 .music-container {
@@ -254,6 +258,10 @@ footer {
 
     .nav {
         width: 18em;
+    }
+
+    .project-img__spaced {
+    margin: 0.5em; 
     }
 
     .music-pepe{
