@@ -208,6 +208,11 @@ h2 {
     max-width: 400px;
 }
 
+.project-img__pareidolia {
+    max-width: 380px;
+    margin: 2em 0;
+}
+
 .project-img__spaced {
     margin: 0.5em 0; 
 }
@@ -262,6 +267,10 @@ footer {
 
     .nav {
         width: 18em;
+    }
+
+    .project-img__pareidolia {
+        margin: 1em;
     }
 
     .project-img__spaced {
