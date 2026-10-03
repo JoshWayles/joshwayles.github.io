@@ -224,7 +224,7 @@ h2 {
     padding: 1em;
 }
 
-.music-meowsteroids {
+.music-small {
     border: 0;
     width: 100%;
     max-width: 700px;
@@ -233,7 +233,7 @@ h2 {
     margin: auto;
 }
 
-.music-pepe {
+.music-big {
     border: 0;
     width: 310px;
     height: 402px;
@@ -245,7 +245,7 @@ h2 {
     padding: 1em;
 }
 
-.video-flatpack{
+.video{
     /*width: 89.6vw;*/
     width: calc(100vw - 2em);
     /*height: 50.4vw;*/
